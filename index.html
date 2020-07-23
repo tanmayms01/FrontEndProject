@@ -5,8 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TinDog</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .links{
+            outline: none;
+            background: none;
+            border: none;
+            color: rgb(228, 228, 228);
+        }
+
+        .links:hover {
+            color: white;
+        }
+
+        .textcontent{
+            color: white;
+            font-size: 3rem;
+            width: 30%;
+            margin-left: 13.5%;
+            margin-top: 75px;
+        }
+
+        .btons{
+            margin-left: 13.5%;
+            margin-top: 40px;
+            width: 30%;
+            justify-content: space-around;
+        }
+
+        #bttons{
+            outline: none!important;
+        }
+
+        #btton{
+            outline: none!important;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
-<body>
+<body >
+
+    <!-- navbar at the top of the page for pricing contact and download -->
+    <!-- <div class="navigation w-75 mx-auto mt-5">
     
+      </div>
+     -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-none w-75 mx-auto mt-5">
+        <a class="navbar-brand " href="#"><h3>tindog</h3></a>
+        <!-- <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link">Left Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Left Link 2</a>
+          </li>
+        </ul> -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link"><button class="links">Pricing</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><button class="links">Contact</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><button class="links">Download</button></a>
+          </li>
+        </ul>
+    </nav>
+
+    <div class=" textcontent">
+       Meet new and interesting dogs nearby.
+    </div>      
+
+    <div class="btons">
+        <button type="button" id="bttons" class="btn btn-dark"><img src="" alt="">Download</button>
+        <button type="button" id="btton" class="btn bg-none border-white "><img src="" alt="">Download</button>
+    </div>
+
+
+
+
+
+
+    <!-- <bootsrap link of javascript> -->
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

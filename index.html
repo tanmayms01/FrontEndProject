@@ -29,16 +29,33 @@
             margin-left: 13.5%;
             margin-top: 40px;
             width: 30%;
-            justify-content: space-around;
+        }
+        .btton{
+          font-weight: 400;
+          text-align: center;
+          vertical-align: middle;
+          user-select: none;
+          border: 1px solid transparent;
+          padding: .35rem .75rem;
+          font-size: 1rem;
+          line-height: 1.5;
+          border-radius: .25rem;
+          transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
         }
 
-        #bttons{
-            outline: none!important;
+        #play{
+          height: 20px;
+          width: 20px;
+          /* padding-bottom: 2px; */
+          padding-top: 0%s;
+          
         }
 
-        #btton{
-            outline: none!important;
+        #apple{
+          height: 20px;
+          width: 20px;
         }
+
 
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -78,8 +95,8 @@
     </div>      
 
     <div class="btons">
-        <button type="button" id="bttons" class="btn btn-dark"><img src="" alt="">Download</button>
-        <button type="button" id="btton" class="btn bg-none border-white "><img src="" alt="">Download</button>
+        <button type="button"  class="text-white btton" style="outline: none; background-color: #343a40;"><img id="apple" src="images/apple-brands.svg" alt="">Download</button>
+        <button type="button"  class="text-white border-white btton" style="outline: none; background: none;"><img id="play" src="images/google-play-brands.svg" alt="">  Download</button>
     </div>
 
 
@@ -94,3 +111,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+

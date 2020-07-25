@@ -102,11 +102,13 @@ body{
   width: 225px; height: auto;
   transform: rotate(10deg);
   position: absolute;
+  z-index: -1;
   left: 65%;
   top: 35%;
   border-radius: 5px;
   box-shadow: 2px 2px 5px black;
   overflow: hidden;
+
 }
 
 #dwnld{

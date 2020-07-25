@@ -45,21 +45,27 @@ body{
           height: 70%
         }
 
-        .slider {
-        width: 300px;
-        height: 300px;
-        display: flex;
-        overflow-x: auto;
-        color: white;
+        #icons{
+            text-align: center;
         }
 
-        .slide {
-          width: 300px;
-          flex-shrink: 0;
-          height: 100%;
+        #last{
+            text-align: center;
         }
 
-        *{box-sizing:border-box;}
+        #contact{
+            padding: 3% 6%;
+        }
+
+        .effect{
+            color: #91db3b;
+        }
+
+        .effect:hover{
+            box-shadow: 1.5px 1.5px 10px rgb(78,72,72);
+            transform: rotate(25deg)!important;
+        }
+        /**{box-sizing:border-box;}
 body{
   text-align:center;
   color:#333;
@@ -265,3 +271,4 @@ input {
   opacity: 0;
 }
 
+*/

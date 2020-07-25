@@ -65,6 +65,43 @@ body{
             box-shadow: 1.5px 1.5px 10px rgb(78,72,72);
             transform: rotate(25deg)!important;
         }
+
+        .slider{
+          margin-top: ;
+          /* background-color: red; */
+          height: 300px;
+          /* margin-top: 300px; */
+        }
+        .logos{
+          margin-left: 30%;
+          height: 100px;
+        }
+        .imag{
+          width: 225px; height: 400px;
+          transform: rotate(15deg);
+          position: absolute;
+          z-index: -1;
+          left: 65%;
+          top: 25%;
+          border-radius: 5px;
+          box-shadow: 4px 4px 10px rgb(31, 29, 29);
+          overflow: hidden;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         /**{box-sizing:border-box;}
 body{
   text-align:center;

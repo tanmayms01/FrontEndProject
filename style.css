@@ -58,3 +58,210 @@ body{
           flex-shrink: 0;
           height: 100%;
         }
+
+        *{box-sizing:border-box;}
+body{
+  text-align:center;
+  color:#333;
+}
+#slider{
+  width:500px;
+  awidth:100%;
+  height:300px;
+  aheight:75%;
+  aborder:5px solid;
+  overflow:hidden;
+  margin:0 auto;
+}
+#slider-inner{
+  position:relative;
+  width:2100px;
+  awidth:500%;
+  height:300px;
+  aheight:75%;
+  margin-left:-47px;
+  transition:all .7s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+#slider-inner div{
+  position:relative;
+  width:500px;
+  awidth:100%;
+  height:300px;
+  aheight:75%;
+  display:inline-block;
+  margin-left:-5px;
+  atext-align:center;
+}
+#slider-inner div label{
+  position:absolute;
+  font-size:50px;
+  border:2px solid;
+  border-radius:50%;
+  opacity:0;
+  cursor:pointer;
+  transition:opacity .7s .4s, background .2s;
+}
+#slider-inner div label:nth-of-type(1){
+  left:15px;
+  top:50%;
+  transform:translateY(-50%);
+  padding:0 11px 0 9px;
+  z-index:999;
+}
+#slider-inner div label:nth-of-type(2){
+  right:25px;
+  top:50%;
+  transform:translateY(-50%);
+  padding:0 9px 0 11px;
+}
+#slider-inner div label:hover{background:rgba(255,255,255,.5)}
+#first:checked ~ #slider #slider-inner{
+  margin-left:-47px;
+}
+#first:checked ~ #slider #slider-inner #first-slide label{
+  opacity:1;
+}
+#second:checked ~ #slider #slider-inner{
+  margin-left:-547px;
+}
+#second:checked ~ #slider #slider-inner #second-slide label{
+  opacity:1;
+}
+#third:checked ~ #slider #slider-inner{
+  margin-left:-1047px;
+}
+#third:checked ~ #slider #slider-inner #third-slide label{
+  opacity:1;
+}
+#fourth:checked ~ #slider #slider-inner{
+  margin-left:-1547px;
+}
+#fourth:checked ~ #slider #slider-inner #fourth-slide label{
+  opacity:1;
+}
+#first-slide{
+  background:#FF8F00;
+}
+#second-slide{
+  background:#558B2F;
+}
+#third-slide{
+  background:#0277BD;
+}
+#fourth-slide{
+  background:#AD1457;
+}
+.slide p{
+  position:relative;
+  font-size:150px;
+  top:50%;
+  transform:translateY(-50%);
+}
+.radio {
+  display: inline-block;
+  apadding-right: 20px;
+  afont-size: 18px;
+  aline-height: 49px;
+  cursor: pointer;
+  aposition:absolute;
+}
+.radio:hover .inner {
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  opacity: .5;
+}
+input {
+  height: 1px;
+  width: 1px;
+  opacity: 0;
+}
+#first:checked ~ .radio:nth-of-type(1) .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+#second:checked ~ .radio:nth-of-type(2) .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+#third:checked ~ .radio:nth-of-type(3) .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+#fourth:checked ~ .radio:nth-of-type(4) .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+#first:checked ~ .radio:nth-of-type(1) .outer {
+  border: 3px solid #FF8F00;
+}
+#second:checked ~ .radio:nth-of-type(2) .outer {
+  border: 3px solid #558B2F;
+}
+#third:checked ~ .radio:nth-of-type(3) .outer {
+  border: 3px solid #0277BD;
+}
+#fourth:checked ~ .radio:nth-of-type(4) .outer {
+  border: 3px solid #AD1457;
+}
+#first:focus ~ .radio:nth-of-type(1) .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  background-color: #FF8F00;
+}
+#second:focus ~ .radio:nth-of-type(2) .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  background-color: #558B2F;
+}
+#third:focus ~ .radio:nth-of-type(3) .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  background-color: #0277BD;
+}
+#fourth:focus ~ .radio:nth-of-type(4) .outer .inner {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  background-color: #AD1457;
+}
+.radio .outer {
+  height: 20px;
+  width: 20px;
+  display: block;
+  float: left;
+  margin: 10px 9px 10px 10px;
+  border: 3px solid #333;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.radio .inner {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  height: 16px;
+  width: 16px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  display: block;
+  margin: -1px;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0;
+}
+

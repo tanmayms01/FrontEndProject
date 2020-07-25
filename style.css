@@ -99,14 +99,20 @@ body{
 }
 
 .imag{
-  width: 240px; height: auto;
+  width: 225px; height: auto;
   transform: rotate(10deg);
   position: absolute;
   left: 65%;
-  top: 20%;
+  top: 35%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  overflow: hidden;
 }
 
 #dwnld{
   padding: 7% 15%;
 }
 
+.section{
+    margin-top: 50px;
+}

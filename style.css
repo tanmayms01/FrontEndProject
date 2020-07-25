@@ -2,3 +2,59 @@ body{
     background-color: #91db3b!important;
 }
 
+.links{
+            outline: none;
+            background: none;
+            border: none;
+            color: rgb(228, 228, 228);
+        }
+
+        .links:hover {
+            color: white;
+        }
+
+        .textcontent{
+            color: white;
+            font-size: 3rem;
+            width: 30%;
+            margin-left: 13.5%;
+            margin-top: 75px;
+        }
+
+        .btons{
+            margin-left: 13.5%;
+            margin-top: 40px;
+            width: 30%;
+            justify-content: space-around;
+        }
+
+        #bttons{
+            outline: none!important;
+        }
+
+        #btton{
+            outline: none!important;
+        }
+
+
+        #btton:hover{
+            background-color:  white;
+        }
+
+        .second{
+          height: 70%
+        }
+
+        .slider {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        overflow-x: auto;
+        color: white;
+        }
+
+        .slide {
+          width: 300px;
+          flex-shrink: 0;
+          height: 100%;
+        }

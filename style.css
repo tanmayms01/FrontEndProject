@@ -1,5 +1,6 @@
 body{
-    background-color: #91db3b!important;
+    background-color: #2ecd20!important;
+
 }
 
 .links{
@@ -24,7 +25,7 @@ body{
         .btons{
             margin-left: 13.5%;
             margin-top: 40px;
-            width: 30%;
+            width: 40%;
             justify-content: space-around;
         }
 
@@ -76,7 +77,15 @@ body{
           margin-left: 30%;
           height: 100px;
         }
-        .imag{
+
+        .logoz{
+        width: 12%;
+        height: auto;
+        margin: 0 1%;
+        }
+        
+
+        .img{
           width: 225px; height: 400px;
           transform: rotate(15deg);
           position: absolute;

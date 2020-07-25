@@ -48,7 +48,7 @@
 
     <div class="btons" style="padding-bottom: 30px;">
 
-        <button type="button" id="bttons" class="btn btn-lg btn-dark" style="padding: 5px 5px 5px 5px;"><i class="fab fa-apple"></i>   Download</button>
+        <button type="button" id="bttons" class="btn btn-lg btn-dark" style="padding: 5px 5px 5px 5px;margin-right: 10px;"><i class="fab fa-apple"></i>   Download</button>
         <button type="button" id="btton" class="btn btn-lg bg-none border-white " style="padding: 5px 5px 5px 5px;"><i class="fab fa-google-play"></i>   Download</button>
     </div>
 
@@ -89,14 +89,53 @@
     </div>
     </section>
 
-    
-
-    <div class="slider">
-  <div class="slide" id="slide-1">hi</div>
-  <div class="slide" id="slide-2">dvd</div>
-  <div class="slide" id="slide-3">dsv</div>
-  <div class="slide" id="slide-4">dsv</div>
-  <div class="slide" id="slide-5">dsv</div>
+    <input type="radio" name="slide-trigger" value="first" id="first" checked />
+<label class="radio" for="first">
+  <span class="outer">
+    <span class="inner"></span>
+  </span>  
+</label>
+<input type="radio" name="slide-trigger" value="second" id="second" />
+<label class="radio" for="second">
+  <span class="outer">
+    <span class="inner"></span>
+  </span>  
+</label>
+<input type="radio" name="slide-trigger" value="third" id="third" />
+<label class="radio" for="third">
+  <span class="outer">
+    <span class="inner"></span>
+  </span>  
+</label>
+<input type="radio" name="slide-trigger" value="fourth" id="fourth" />
+<label class="radio" for="fourth">
+  <span class="outer">
+    <span class="inner"></span>
+  </span>  
+</label>
+<div id="slider">
+  <div id="slider-inner">
+    <div id="first-slide" class="slide">
+      <label for="fourth"><</label>
+        <p>1</p>
+      <label for="second">></label>
+    </div>
+    <div id="second-slide" class="slide">
+      <label for="first"><</label>
+        <p>2</p>
+      <label for="third">></label>
+    </div>
+    <div id="third-slide" class="slide">
+      <label for="second"><</label>
+        <p>3</p>
+      <label for="fourth">></label>
+    </div>
+    <div id="fourth-slide" class="slide">
+      <label for="third"><</label>
+        <p>4</p>
+      <label for="first">></label>
+    </div>
+  </div>
 </div>
  
   
@@ -106,15 +145,15 @@
  <p style="text-align: center;padding: 10px 10px 10px 10px;">A simple and affordable price plan for you and your dog</p>
  <div class="row">
 
-  <div class="col-sm-4 " style="text-align: center;">
-  <div class="card border-light mb-3" style="max-width: 18rem;">
+  <div class="col-sm-4 d-flex justify-content-center" style="text-align: center;align-content: center;">
+  <div class="card border-light mb-3" style="width: 18rem;">
   <div class="card-header">Chihuahua</div>
   <div class="card-body">
-    <h2 class="card-title">Free</h2>
-     <ul style="list-style-type:none;text-align: center;">
-         <li>5 Matches Per Day</li>
-         <li>10 Messages Per Day</li>
-         <li>Unlimited App Usage</li>
+    <h2 class="card-title" style="background-color: red;">Free</h2>
+     <ul style="list-style-type:none;padding-right:40px;background-color: gray;">
+         <li style="background-color: yellow;">5 Matches Per Day</li>
+         <li style="background-color: green;" >10 Messages Per Day</li>
+         <li style="background-color: blue;">Unlimited App Usage</li>
       </ul>
     <button type="button" class="btn btn-dark btn-lg btn-block">Sign up</button>
   </div>
@@ -155,17 +194,18 @@
 </div>
 </section>
 
-<section>
-  <div>
+<section  >
+  <div id="dwnld" style="text-align: center;margin-top: 100px;margin-bottom: 50px;">
 
   <h1 style="color: white;">Find the True Love of Your Dog's Life Today</h1>
   </div>
 
-  <div class="btons">
+  <div style="text-align: center;margin-bottom: 50px;">
 
-        <button type="button" id="bttons" class="btn btn-dark"><i class="fab fa-apple"></i>  Download</button>
-        <button type="button" id="btton" class="btn bg-none border-white " ><i class="fab fa-google-play"></i>   Download</button>
+        <button type="button" id="bttons" class="btn btn-dark" style="margin-right: 8px;"><i class="fab fa-apple"></i>  Download</button>
+        <button type="button" id="btton" class="btn bg-none border-white "style="margin-left: 8px;"><i class="fab fa-google-play"></i>   Download</button>
     </div>
+  </section>
 
 
 

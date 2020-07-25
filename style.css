@@ -31,6 +31,7 @@ body{
     width: 30%;
     margin-left: 13.5%;
     margin-top: 75px;
+    font-family: 'Noto Serif', serif;
 }
 
 .btons{
@@ -49,6 +50,7 @@ body{
   line-height: 1.5;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-family: 'Roboto', sans-serif;
 }
 
 #play{
@@ -93,28 +95,88 @@ body{
   height: 20px;
 }
 
+.logos{
+  margin-left: 30%;
+  height: 100px;
+}
+
 .logoz{
-  width: 70px;
+  width: 10%;
   height: auto;
+  margin: 0 1%;
 }
 
 .imag{
-  width: 225px; height: auto;
-  transform: rotate(10deg);
+  width: 225px; height: 400px;
+  transform: rotate(15deg);
   position: absolute;
   z-index: -1;
   left: 65%;
-  top: 35%;
+  top: 25%;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 4px 4px 10px rgb(31, 29, 29);
   overflow: hidden;
 
 }
 
-#dwnld{
-  padding: 7% 15%;
-}
 
 .section{
     margin-top: 50px;
+}
+
+#icons{
+  text-align: center;
+}
+
+#last{
+  text-align: center;
+}
+
+
+#contact{
+  padding: 3% 6%;
+}
+
+.iconz{
+  margin: 1.5%;
+}
+
+
+.effect{
+  color: #91db3b;
+  transition: transform 0.2s;
+}
+
+.effect:hover {
+  box-shadow: 1.5px 1.5px 10px rgb(78, 72, 72);
+  transform: rotate( 25deg)!important;
+  
+}
+
+.signbtn{
+    color: #212529!important;
+    background-color: #f8f9fa!important;
+    border-color: #212529!important;
+}
+
+.signbtn:hover{
+    color: #f8f9fa!important;
+    background-color: #212529!important;
+    border-color: #f8f9fa!important;
+}
+
+#buton:hover{
+  color: #212529!important;
+  background-color: #f8f9fa!important;
+  border-color: #f8f9fa!important;
+}
+
+#buton{
+  margin-left: 2%;
+}
+
+#plan{
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  padding-top: 30px;
 }

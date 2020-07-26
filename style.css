@@ -182,3 +182,33 @@ body{
   text-align: center;
   padding-top: 30px;
 }
+
+
+@media screen and (max-width: 1095px){
+
+  .imag{
+    width: 170px;
+    height: 300px;
+    top: 30%;
+  }
+
+  .textcontent{
+    font-size: 2.25rem;
+  }
+  .btton{
+    width: 32%;
+    height: auto;
+    font-size: 0.75rem;
+  }
+
+  .botomh1{
+    font-size: 2.25rem;
+  }
+
+  .downlod{
+    width: 10%!important;
+    height: auto;
+    font-size: 0.75rem!important;
+  }
+}
+

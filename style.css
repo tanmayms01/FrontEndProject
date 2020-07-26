@@ -15,7 +15,7 @@ body{
 }
 
 .links{
-    outline: none;
+    outline: none!important;
     background: none;
     border: none;
     color: rgb(228, 228, 228);
@@ -96,8 +96,10 @@ body{
 }
 
 .logos{
-  margin-left: 30%;
+  display: inline;
   height: 100px;
+  padding: 4% 8%;
+  margin: 3% 15%;
 }
 
 .logoz{

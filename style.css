@@ -4,7 +4,7 @@ body{
 }
 
 
-.links{
+        .links{
             outline: none!important;
             background: none;
             border: none;
@@ -69,50 +69,64 @@ body{
         }
 
         .slider{
-          margin-top: ;
-          /* background-color: red; */
-          height: 300px;
-          /* margin-top: 300px; */
-          overflow: hidden;
+            margin-top: ;
+             /* background-color: red; */
+            height: 300px;
+             /* margin-top: 300px; */
+            overflow: hidden;
         }
         .logos{
-          margin: 3% 15%;
-          height: auto;
-          padding: 4% 8%;
-          /*display: inline;*/
+            margin: 3% 15%;
+            height: auto;
+            padding: 4% 8%;
+            /*display: inline;*/
           
         }
 
         .logoz{
-        width:  20%;
-        height: auto;
-        padding: 10px 10px 10px 10px;
-        margin: 0 2%;
+            width:  20%;
+            height: auto;
+            padding: 10px 10px 10px 10px;
+            margin: 0 2%;
         }
         
 
-        .img{
+        #img{
           width: 225px; height: 400px;
+          display: block;
+          max-width:225px;
+          max-height:400px;
+          /*width: auto;
+          height: auto;*/
           transform: rotate(15deg);
           position: absolute;
+          bottom: 0;
+          right: 0;
           z-index: -1;
           left: 65%;
-          top: 40%;
+          top: 235px;
           border-radius: 15px;
           box-shadow: 4px 4px 10px rgb(31, 29, 29);
           overflow: hidden;
+
         }
 
 
-        @media screen and (max-width:1015px) and (min-width: 992px) {
-        .img{
+        @media screen and (max-width:1200px) and (min-width: 992px) {
+        #img{
             top: 48%;
             }
 
         }
 
+        @media screen and (min-width: 1720px){
+            .img{
+                top: 25%;
+            }
+        }
+
         @media screen and (max-width:992px) and (min-width: 768px) {
-        .img{
+        #img{
             width: 150px;
             height: 300px;
             top: 55%;
@@ -136,10 +150,10 @@ body{
         }
 
         @media screen and (max-width: 768px) and (min-width:683px ){
-            .img{
-            width: 150px;
+            #img{
+            width: 175px;
             height: 300px;
-            top: 55%;
+            top: 65%;
             }
 
              .textcontent{
@@ -155,15 +169,11 @@ body{
             font-size: 0.7rem;
             margin-left: 1%;
         }
-
-        .list{
-            font-size: 0.5rem;
-        }
         }
 
         @media screen and (max-width: 682px) and (min-width:616px ){
-            .img{
-            width: 150px;
+            #img{
+            width: 175px;
             height: 300px;
             top: 62%;
             }
@@ -181,15 +191,92 @@ body{
             font-size: 0.7rem;
             margin-left: 1%;
         }
-
-        .list{
-            font-size: 0.5rem;
         }
 
-        #pricing{
-            width: 100%;
+        @media screen and (max-width:425px) and (min-width: 375px)
+        {
+            #img{
+                width: 175px;
+                height: 300px;
+                top: 85%;
+                left: 55%;
+
+            }
+            .textcontent{
+                font-size: 2rem;
+            }
+
+            #bttons{
+                font-size: 0.5rem;
+                margin-right: 0;
+            }
+
+            #btton{
+                font-size: 0.5rem;
+                margin-left: 1%;
+                padding: 0px 0px 0px 0px;
+                margin-left: 0;
+                margin-top: 10px;
+            }
+
+            .logos{
+                margin: 0% 0%;
+            }
+
+            #dwnld{
+                margin-left: 30px;
+            }
         }
+
+
+        @media screen and (max-width:375px) and (min-width: 320px)
+        {
+            #img{
+                width: 175px;
+                height: 300px;
+                top: 76%;
+                left: 45%;
+
+            }
+            .textcontent{
+                font-size: 1.5rem;
+            }
+
+            #bttons{
+                font-size: 0.5rem;
+                margin-right: 0;
+            }
+
+            #btton{
+                font-size: 0.5rem;
+                margin-left: 1%;
+                padding: 0px 0px 0px 0px;
+                margin-left: 0;
+                margin-top: 10px;
+            }
+
+            .logos{
+                margin: 0% 0%;
+                padding:50px 0px;
+                height:  150px;
+            }
+
+            #dwnld{
+                margin-left: 30px;
+            }
+
+            #spl2{
+                padding-bottom: 80px;
+            }
         }
+
+
+        @media screen and (min-width: 500px) and (max-width:620px){
+            .logos{
+                margin: 0% 0%;
+            }
+
+        } 
 
 
         

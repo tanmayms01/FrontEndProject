@@ -78,12 +78,6 @@ body{
   margin-top: 50px;
 } */
 
-.slider{
-  margin-top: ;
-  /* background-color: red; */
-  height: 300px;
-  /* margin-top: 300px; */
-}
 
 .secondparts{
   height: 450px;
@@ -210,5 +204,189 @@ body{
     height: auto;
     font-size: 0.75rem!important;
   }
+
+  #c1, #c11, #c2, #c22, #c3, #c33{
+    font-size: 1rem;
+  }
+
+  #scndpart{
+    height: 150px;
+  }
+
+  #sc1{
+    padding-top: 50px;
+  }
 }
 
+@media screen and (max-width: 991px){
+  .nv1{
+    font-size: 0.9rem;
+  }
+
+  .btton{
+    width: 32%;
+    height: auto;
+    font-size: 0.65rem;
+  }
+
+  .downlod{
+    width: 10%!important;
+    height: auto;
+    font-size: 0.65rem!important;
+  }
+
+  .textcontent{
+    font-size: 2rem;
+  }
+
+  .imag{
+    top: 35%;
+  }
+
+  #c1, #c11, #c2, #c22, #c3, #c33{
+    font-size: 0.9rem;
+  }
+
+  .botomh1{
+    font-size: 2rem;
+  }
+
+  #plan{
+    font-size: 1.8rem;
+  }
+
+  #plan1{
+    font-size: 1rem;
+  }
+
+  .signbtn, .sinbtn{
+    width: 60%!important;
+    font-size: 0.75rem!important;
+    height: auto!important;
+    margin-left: 20%;
+  }
+  #card1{
+    margin-left: 15%;
+    font-size: 0.9rem;
+  }
+
+  .card2{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 898px){
+  .btton{
+    font-size: 0.6rem;
+    width: 33%;
+  }
+  .textcontent{
+    font-size: 1.8rem;
+  }
+
+  .imag{
+    top: 33%;
+  }
+
+  .downlod{
+    font-size: 0.6rem!important;
+    width: 33%;
+  }
+
+  .botomh1{
+    font-size: 1.8rem;
+  }
+
+  #last{
+    font-size: 0.9rem;
+  }
+
+  #card1{
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 826px){
+  .btton{
+    font-size: 0.5rem;
+  }
+
+  .downlod{
+    font-size: 0.48rem!important;
+  }
+
+  #downld{
+    padding: 0 0;
+  }
+
+  #last{
+    font-size: 0.8rem;
+  }
+
+  #card1, .card2{
+    font-size: 0.7rem;
+  }
+
+
+}
+
+@media screen and (max-width: 734px){
+  .btton, .downlod{
+    font-size: 0.4rem!important;
+  }
+}
+
+@media screen and (max-width: 664px){
+  .textcontent, .botomh1{
+    font-size: 1.6rem;
+  }
+
+  .btton, .downlod{
+    font-size: 0.3rem!important;
+  }
+
+  .imag{
+    top: 33%;
+    width: 160px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 641px){
+  .btton, .downlod{
+    font-size: 0.3rem!important;
+  }
+}
+
+@media screen and (max-width: 609px){
+
+  .signbtn, .sinbtn{
+    width: 50%!important;
+    font-size: 0.45rem!important;
+    height: auto!important;
+    margin-left: 20%;
+  }
+
+  #card1, .card2{
+    font-size: 0.5rem;
+  }
+
+  .btton{
+    width: 40%!important;
+  }
+
+  .downlod{
+    width: 12%!important;
+  }
+
+  .textcontent, .botomh1{
+    font-size: 1.35rem;
+  }
+
+  .imag{
+    width: 120px;
+    height: 200px;
+    top: 40%;
+  }
+
+}

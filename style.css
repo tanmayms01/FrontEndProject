@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #91db3b!important;
+    margin: 0!important;
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box!important;
+}
+
+.links{
+    outline: none!important;
+    background: none;
+    border: none;
+    color: rgb(228, 228, 228);
+}
+
+.links:hover {
+    color: white;
+}
+
+.textcontent{
+    color: white;
+    font-size: 3rem;
+    width: 30%;
+    margin-left: 13.5%;
+    margin-top: 75px;
+    font-family: 'Noto Serif', serif;
+}
+
+.btons{
+    margin-left: 13.5%;
+    margin-top: 40px;
+    width: 30%;
+}
+.btton{
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .35rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-family: 'Roboto', sans-serif;
+}
+
+#play{
+  height: 20px;
+  width: 20px;
+  margin-bottom: 3px;;          
+}
+
+#apple{
+  height: 20px;
+  width: 20px;
+  margin-bottom: 5px;
+  padding-right: 0.3rem;
+}
+
+.cards{
+  float: left;
+  width: 15%;
+}
+
+.secondparts{
+  height: 450px;
+
+}
+
+.iccon{
+  width: 20px;
+  height: 20px;
+}
+
+.logos{
+  display: inline;
+  height: 100px;
+  padding: 4% 8%;
+  margin: 3% 15%;
+}
+
+.logoz{
+  width: 10%;
+  height: auto;
+  margin: 0 1%;
+}
+
+.imag{
+  width: 225px; height: 400px;
+  transform: rotate(15deg);
+  position: absolute;
+  z-index: -1;
+  left: 65%;
+  top: 25%;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(31, 29, 29);
+  overflow: hidden;
+
+}
+
+
+.section{
+    margin-top: 50px;
+}
+
+#icons{
+  text-align: center;
+}
+
+#last{
+  text-align: center;
+}
+
+
+#contact{
+  padding: 3% 6%;
+}
+
+.iconz{
+  margin: 1.5%;
+}
+
+
+.effect{
+  color: #91db3b;
+  transition: transform 0.2s;
+}
+
+.effect:hover {
+  box-shadow: 1.5px 1.5px 10px rgb(78, 72, 72);
+  transform: rotate( 25deg)!important;
+  
+}
+
+.signbtn{
+    color: #212529!important;
+    background-color: #f8f9fa!important;
+    border-color: #212529!important;
+}
+
+.signbtn:hover{
+    color: #f8f9fa!important;
+    background-color: #212529!important;
+    border-color: #f8f9fa!important;
+}
+
+#buton:hover{
+  color: #212529!important;
+  background-color: #f8f9fa!important;
+  border-color: #f8f9fa!important;
+}
+
+#buton{
+  margin-left: 2%;
+}
+
+#plan{
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+@media screen and (max-width: 1095px){
+
+  .imag{
+    width: 170px;
+    height: 300px;
+    top: 30%;
+  }
+
+  .textcontent{
+    font-size: 2.25rem;
+  }
+  .btton{
+    width: 32%;
+    height: auto;
+    font-size: 0.75rem;
+  }
+
+  .botomh1{
+    font-size: 2.25rem;
+  }
+
+  .downlod{
+    width: 10%!important;
+    height: auto;
+    font-size: 0.75rem!important;
+  }
+
+  #c1, #c11, #c2, #c22, #c3, #c33{
+    font-size: 1rem;
+  }
+
+  #scndpart{
+    height: 150px;
+  }
+
+  #sc1{
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .nv1{
+    font-size: 0.9rem;
+  }
+
+  .btton{
+    width: 32%;
+    height: auto;
+    font-size: 0.65rem;
+  }
+
+  .downlod{
+    width: 10%!important;
+    height: auto;
+    font-size: 0.65rem!important;
+  }
+
+  .textcontent{
+    font-size: 2rem;
+  }
+
+  .imag{
+    top: 35%;
+  }
+
+  #c1, #c11, #c2, #c22, #c3, #c33{
+    font-size: 0.9rem;
+  }
+
+  .botomh1{
+    font-size: 2rem;
+  }
+
+  #plan{
+    font-size: 1.8rem;
+  }
+
+  #plan1{
+    font-size: 1rem;
+  }
+
+  .signbtn, .sinbtn{
+    width: 60%!important;
+    font-size: 0.75rem!important;
+    height: auto!important;
+    margin-left: 20%;
+  }
+  #card1{
+    margin-left: 15%;
+    font-size: 0.9rem;
+  }
+
+  .card2{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 898px){
+  .btton{
+    font-size: 0.6rem;
+    width: 33%;
+  }
+  .textcontent{
+    font-size: 1.8rem;
+  }
+
+  .imag{
+    top: 33%;
+  }
+
+  .downlod{
+    font-size: 0.6rem!important;
+    width: 33%;
+  }
+
+  .botomh1{
+    font-size: 1.8rem;
+  }
+
+  #last{
+    font-size: 0.9rem;
+  }
+
+  #card1{
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 826px){
+  .btton{
+    font-size: 0.5rem;
+  }
+
+  .downlod{
+    font-size: 0.48rem!important;
+  }
+
+  #downld{
+    padding: 0 0;
+  }
+
+  #last{
+    font-size: 0.8rem;
+  }
+
+  #card1, .card2{
+    font-size: 0.7rem;
+  }
+
+
+}
+
+@media screen and (max-width: 734px){
+  .btton, .downlod{
+    font-size: 0.4rem!important;
+  }
+}
+
+@media screen and (max-width: 664px){
+  .textcontent, .botomh1{
+    font-size: 1.6rem;
+  }
+
+  .btton, .downlod{
+    font-size: 0.3rem!important;
+  }
+
+  .imag{
+    top: 33%;
+    width: 160px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 641px){
+  .btton, .downlod{
+    font-size: 0.3rem!important;
+  }
+}
+
+@media screen and (max-width: 609px){
+
+  .signbtn, .sinbtn{
+    width: 50%!important;
+    font-size: 0.45rem!important;
+    height: auto!important;
+    margin-left: 20%;
+  }
+
+  #card1, .card2{
+    font-size: 0.5rem;
+  }
+
+  .btton{
+    width: 40%!important;
+  }
+
+  .downlod{
+    width: 12%!important;
+  }
+
+  .textcontent, .botomh1{
+    font-size: 1.35rem;
+  }
+
+  .imag{
+    width: 120px;
+    height: 200px;
+    top: 40%;
+  }
+
+}
